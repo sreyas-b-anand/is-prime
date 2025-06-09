@@ -4,33 +4,34 @@ An API to check whether a given number is prime or not.
 
 ---
 
-## Getting Started
+### Getting Started
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sreyas-b-anand/prime-checker-api.git
 cd is-prime
 ```
 
-### 2. Install dependencies
+## 2. Install dependencies
 ```bash
 npm install
 ```
-### 3. Run server
+## 3. Run server
 ```bash
 nodemon server
 ```
 
 
 ### Folder structure
+```
 is-prime/
 ├── server.js               # Entry point
 ├── routes/
 │   └── prime.route.js      # Route to handle /prime endpoint
 └── services/
     └── isPrime.js          # Prime checking logic
-
+```
 
 ### Test with Postman
  1. Open Postman.
